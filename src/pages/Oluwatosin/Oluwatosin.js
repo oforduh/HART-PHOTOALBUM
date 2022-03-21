@@ -1,18 +1,16 @@
 import React from "react";
 import Header from "../../components/Headers/Header";
 import PhotoAlbum from "../../components/photoalbum/PhotoAlbum";
-import { UserObject } from "../../context/User";
 import styles from "./oluwatosin.module.scss";
+import { tosinPictures } from "./Pictures";
 
-const Oluwatosin = ({ navOpen }) => {
-  const { clickDBodyToCloseNav } = UserObject();
-  console.log(clickDBodyToCloseNav);
+const Oluwatosin = () => {
   return (
     <div className={styles.oluwatosinParentDiv}>
       <div className={styles.oluwatosinContDiv}>
-        <Header />
+        <Header marqueeText="I Love it Beautiful, Classy and Simple🥰😌😍" />
         <div className={styles.photoContainerDiv}>
-          <PhotoAlbum />
+          <PhotoAlbum pictures={tosinPictures} />
         </div>
       </div>
     </div>

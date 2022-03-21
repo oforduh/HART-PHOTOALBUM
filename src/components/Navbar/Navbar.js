@@ -1,12 +1,10 @@
-import React, { useState } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 import styles from "./navbar.module.scss";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { AiOutlineClose } from "react-icons/ai";
 import { sidebarData } from "./Sidebar";
 import { NavLink } from "react-router-dom";
 import NavLogo from "./NavLogo.jpg";
-import { UserObject } from "../../context/User";
-
 const Navbar = ({ setnavOpen, navOpen }) => {
   const [closeNav, setcloseNav] = useState(false);
   const [showVerticalMenu, setshowVerticalMenu] = useState(false);
@@ -23,15 +21,23 @@ const Navbar = ({ setnavOpen, navOpen }) => {
   const navOpensetter = () => {
     setnavOpen(!navOpen);
   };
-  const { setclickDBodyToCloseNav } = UserObject();
-  const clickDBodyToCloseNavFunction = () => {
-    if (navOpen) {
-      handleNavbarIcons();
-      handleNavbarSlide();
-      navOpensetter();
-    }
-  };
-  setclickDBodyToCloseNav("clickDBodyToCloseNavFunction");
+
+  const clickDBodyToCloseNavFunction = useCallback(
+    function (e) {
+      console.log(showVerticalMenu);
+    },
+    [showVerticalMenu]
+  );
+
+  // console.log(showVerticalMenu);
+
+  useEffect(() => {
+    document.body.addEventListener("click", clickDBodyToCloseNavFunction);
+
+    // return () => {
+    //   second
+    // }
+  }, []);
 
   return (
     <div className={styles.navbarParentDiv}>
@@ -47,6 +53,7 @@ const Navbar = ({ setnavOpen, navOpen }) => {
             />
           ) : (
             <GiHamburgerMenu
+              id="HamburgerMenu"
               onClick={() => {
                 handleNavbarIcons();
                 handleNavbarSlide();
@@ -63,7 +70,11 @@ const Navbar = ({ setnavOpen, navOpen }) => {
             : `${styles.verticalBar} ${styles.active}`
         }
       >
-        <div className={styles.verticalBarContainer}>
+        <div
+          className={styles.verticalBarContainer}
+          // onClick={clickDBodyToCloseNavFunction}
+          id="verticalBarContainerId"
+        >
           <img alt="Navbar Logo" src={NavLogo} height="150" />
 
           <ul className={styles.navbarUL}>
@@ -73,6 +84,7 @@ const Navbar = ({ setnavOpen, navOpen }) => {
                   <NavLink
                     to={item.path}
                     activeClassName={styles.navTextActive}
+                    // onClick={clickDBodyToCloseNavFunction}
                   >
                     {item.icon}
                     <span>{item.title}</span>

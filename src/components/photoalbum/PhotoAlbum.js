@@ -1,11 +1,10 @@
 import React from "react";
-import { tosinPictures } from "../../pages/Oluwatosin/Pictures";
 import styles from "./photo.module.scss";
 
-const PhotoAlbum = () => {
+const PhotoAlbum = ({ pictures}) => {
   return (
     <div className={styles.container}>
-      {tosinPictures.map(({ src, name, widthSpan, heightSpan }, idx) => {
+      {pictures.map(({ src, name, widthSpan, heightSpan }, idx) => {
         return (
           <div
             key={idx}

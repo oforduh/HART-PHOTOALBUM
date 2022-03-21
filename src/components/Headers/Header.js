@@ -1,15 +1,15 @@
 import React from "react";
 import styles from "./header.module.scss";
 
-const Header = () => {
+const Header = ({ marqueeText }) => {
   return (
     <header>
       <section className={styles.widget}>
-            {/* <marquee>
+        {/* <marquee>
           <b>I Love it Beautiful, Classy and Simple🥰😌😍</b>
         </marquee> */}
         <div className={styles.marquee}>
-          <span>I Love it Beautiful, Classy and Simple🥰😌😍</span>
+          <span>{marqueeText}</span>
         </div>
       </section>
     </header>

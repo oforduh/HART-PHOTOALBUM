@@ -118,8 +118,8 @@ export const tosinPictures = [
   {
     src: "../../../assets/30.jpeg",
     name: "All in one",
-    widthSpan: "",
-    heightSpan: "",
+    widthSpan: "w-3",
+    heightSpan: "h-3",
   },
   {
     src: "../../../assets/25.jpeg",

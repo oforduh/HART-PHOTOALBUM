@@ -1,10 +1,11 @@
 export const harrisonPictures = [
   {
-    src: "../../../assets/h1.jpeg",
-    name: "Rum rum",
+    src: "../../../assets/h8.jpeg",
+    name: "Prince Charming",
     widthSpan: "w-2",
     heightSpan: "h-3",
   },
+
   {
     src: "../../../assets/h2.jpeg",
     name: "Saeedi",
@@ -30,23 +31,12 @@ export const harrisonPictures = [
     heightSpan: "h-2",
   },
   {
-    src: "../../../assets/h6.jpeg",
-    name: "Prince",
+    src: "../../../assets/h1.jpeg",
+    name: "Rum rum",
     widthSpan: "",
     heightSpan: "",
   },
-  {
-    src: "../../../assets/h7.jpeg",
-    name: "Papi",
-    widthSpan: "",
-    heightSpan: "",
-  },
-  {
-    src: "../../../assets/h8.jpeg",
-    name: "Prince Charming",
-    widthSpan: "",
-    heightSpan: "",
-  },
+
   {
     src: "../../../assets/h9.jpeg",
     name: "Papito",
@@ -81,6 +71,12 @@ export const harrisonPictures = [
   {
     src: "../../../assets/h14.jpeg",
     name: "Fruit cake",
+    widthSpan: "",
+    heightSpan: "",
+  },
+  {
+    src: "../../../assets/h6.jpeg",
+    name: "Prince",
     widthSpan: "",
     heightSpan: "",
   },
@@ -125,6 +121,12 @@ export const harrisonPictures = [
   {
     src: "../../../assets/h21.jpeg",
     name: "Everything",
+    widthSpan: "",
+    heightSpan: "",
+  },
+  {
+    src: "../../../assets/h7.jpeg",
+    name: "Papi",
     widthSpan: "",
     heightSpan: "",
   },

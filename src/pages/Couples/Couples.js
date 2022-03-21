@@ -6,10 +6,10 @@ import styles from "./couples.module.scss";
 const Couples = () => {
   <div className={styles.couplesParentDiv}>
     <div className={styles.couplesContDiv}>
-      <Header />
+      {/* <Header />
       <div className={styles.photoContainerDiv}>
         <PhotoAlbum />
-      </div>
+      </div> */}
     </div>
   </div>;
 };

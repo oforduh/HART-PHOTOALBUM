@@ -1,0 +1,96 @@
+.navbarParentDiv {
+  //   width: 100%;
+  // border: 10px solid yellow;
+  .horizontalBar {
+    height: 50px;
+    background-color: var(--secondary);
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    z-index: 5;
+    .horizontalBarContent {
+      margin-left: 10px;
+      font-size: 25px;
+      color: var(--primary);
+      width: 100%;
+    }
+  }
+  // show side bar
+  .verticalBar {
+    height: calc(100vh - 40px);
+    margin-top: 40px;
+    background-color: var(--secondary);
+    width: 250px;
+    position: fixed;
+    left: 0;
+    transition: 0.5s ease-in-out;
+    display: flex;
+    justify-content: center;
+    .verticalBarContainer {
+      margin-top: 50px;
+      width: 80%;
+      img {
+        width: 100%;
+        background-color: var(--secondary);
+      }
+      .navbarUL {
+        height: 300px;
+        margin-top: 30px;
+        width: 100%;
+
+        // align-items: center;
+        li {
+          display: flex;
+          align-items: center;
+          height: 60px;
+          justify-content: flex-start;
+          padding: 8px 0 8px 16px;
+
+          list-style: none;
+          color: var(--primary);
+          span {
+            margin-left: 20px;
+          }
+          a {
+            text-decoration: none;
+            color: var(--primary);
+            font-weight: bolder;
+          }
+          &:hover {
+            background-color: var(--primary);
+            a {
+              color: var(--white);
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // hide sider bar
+  .active {
+    left: -250px;
+  }
+}
+
+.navTextActive {
+  border-bottom: 2px solid var(--white);
+}
+
+@media screen and (max-width: 426px) {
+  .navbarParentDiv {
+    .verticalBar {
+      width: 100%;
+      z-index: 5;
+      .verticalBarContainer {
+        img {
+          object-fit: cover;
+        }
+      }
+    }
+    .active {
+      left: -100%;
+    }
+  }
+}

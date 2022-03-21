@@ -1,0 +1,27 @@
+.oluwatosinParentDiv{
+    min-height: calc(100vh - 90px);
+    max-width: 100vw;
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    // border: 2px solid red; 
+ 
+  
+    background-color: var(--backgroundColor);
+    .oluwatosinContDiv{ 
+        min-height: 100%;
+        max-width: 99%;
+     
+   
+    .photoContainerDiv{
+        min-height: calc(100% - 40px);
+        // border: 2px solid blue;
+        scroll-behavior: smooth;
+     
+   
+    }
+      
+    }
+
+}

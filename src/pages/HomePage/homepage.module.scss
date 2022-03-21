@@ -1,0 +1,16 @@
+.homePageParentDiv{
+    height: calc(100vh - 90px);
+    margin-top: 10px;
+    max-width: 100%;
+    position: relative;
+  
+    background-color: var(--white);
+    .homePageContDiv{  
+        min-height: 100%;
+        max-width: 100%;
+        border: 2px solid red;
+    
+      
+    }
+
+}

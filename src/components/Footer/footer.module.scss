@@ -1,0 +1,22 @@
+.footerParentDiv {
+  background-color: var(--footerColor);
+  color: var(--primary);
+  font-weight: bolder;
+  // left: 0;
+  margin-left: 0;
+  position: relative;
+  transition: all 0.5s ease-in-out;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  span {
+    margin-right: 20px;
+  }
+}
+.active {
+  // left: 250px;
+  margin-left: 250px;
+  bottom: 0;
+  transition: all 0.5s ease-in-out;
+}

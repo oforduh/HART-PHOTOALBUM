@@ -1,0 +1,280 @@
+export const couplesPictures = [
+  {
+    src: "../../../assets/t1.jpeg",
+    name: "Prince Charming",
+    widthSpan: "w-2",
+    heightSpan: "h-3",
+  },
+
+  {
+    src: "../../../assets/t2.jpeg",
+    name: "Saeedi",
+    widthSpan: "w-2",
+    heightSpan: "h-2",
+  },
+  {
+    src: "../../../assets/t3.jpeg",
+    name: "Sailor",
+    widthSpan: "",
+    heightSpan: "",
+  },
+  {
+    src: "../../../assets/t4.jpeg",
+    name: "Mi Tesoro",
+    widthSpan: "w-2",
+    heightSpan: "h-2",
+  },
+  {
+    src: "../../../assets/t5.jpeg",
+    name: "Mi Cielo",
+    widthSpan: "w-2",
+    heightSpan: "h-2",
+  },
+  {
+    src: "../../../assets/t6.jpeg",
+    name: "Rum rum",
+    widthSpan: "",
+    heightSpan: "",
+  },
+
+  {
+    src: "../../../assets/t7.jpeg",
+    name: "Papito",
+    widthSpan: "",
+    heightSpan: "",
+  },
+  {
+    src: "../../../assets/t8.jpeg",
+    name: "Paradise",
+    widthSpan: "",
+    heightSpan: "h-2",
+  },
+  {
+    src: "../../../assets/t9.jpeg",
+    name: "Lover",
+    widthSpan: "w-2",
+    heightSpan: "h-2",
+  },
+  {
+    src: "../../../assets/t10.jpeg",
+    name: "Lover Pie",
+    widthSpan: "",
+    heightSpan: "",
+  },
+  {
+    src: "../../../assets/t11.jpeg",
+    name: "Flower",
+    widthSpan: "w-2",
+    heightSpan: "h-2",
+  },
+
+  {
+    src: "../../../assets/t12.jpeg",
+    name: "Fruit cake",
+    widthSpan: "",
+    heightSpan: "",
+  },
+  {
+    src: "../../../assets/t13.jpeg",
+    name: "Prince",
+    widthSpan: "",
+    heightSpan: "",
+  },
+  {
+    src: "../../../assets/t14.jpeg",
+    name: "Sugar",
+    widthSpan: "w-2",
+    heightSpan: "h-2",
+  },
+
+  {
+    src: "../../../assets/t15.jpeg",
+    name: "Flame",
+    widthSpan: "",
+    heightSpan: "",
+  },
+  {
+    src: "../../../assets/t16.jpeg",
+    name: "Gangstar baby",
+    widthSpan: "",
+    heightSpan: "",
+  },
+  {
+    src: "../../../assets/t17.jpeg",
+    name: "Mon cheri",
+    widthSpan: "",
+    heightSpan: "",
+  },
+  {
+    src: "../../../assets/t18.jpeg",
+    name: "World Best",
+    widthSpan: "",
+    heightSpan: "",
+  },
+  {
+    src: "../../../assets/t19.jpeg",
+    name: "All in one",
+    widthSpan: "h-2",
+    heightSpan: "w-2",
+  },
+
+  {
+    src: "../../../assets/t20.jpeg",
+    name: "Everything",
+    widthSpan: "",
+    heightSpan: "",
+  },
+  {
+    src: "../../../assets/t21.jpeg",
+    name: "Papi",
+    widthSpan: "",
+    heightSpan: "",
+  },
+  {
+    src: "../../../assets/t22.jpeg",
+    name: "Luv",
+    widthSpan: "",
+    heightSpan: "",
+  },
+
+  {
+    src: "../../../assets/t23.jpeg",
+    name: "Boo",
+    widthSpan: "",
+    heightSpan: "",
+  },
+
+  {
+    src: "../../../assets/t24.jpeg",
+    name: "Mi Amor",
+    widthSpan: "",
+    heightSpan: "",
+  },
+  {
+    src: "../../../assets/t25.jpeg",
+    name: "Bae",
+    widthSpan: "",
+    heightSpan: "",
+  },
+  {
+    src: "../../../assets/t26.jpeg",
+    name: "yellow Sugar",
+    widthSpan: "",
+    heightSpan: "",
+  },
+  {
+    src: "../../../assets/t27.jpeg",
+    name: "Kissy Face",
+    widthSpan: "",
+    heightSpan: "",
+  },
+
+  {
+    src: "../../../assets/t28.jpeg",
+    name: "Cutie",
+    widthSpan: "",
+    heightSpan: "",
+  },
+  {
+    src: "../../../assets/t29.jpeg",
+    name: "Key to my heart",
+    widthSpan: "",
+    heightSpan: "",
+  },
+  {
+    src: "../../../assets/t30.jpeg",
+    name: "Popsicle",
+    widthSpan: "",
+    heightSpan: "",
+  },
+  {
+    src: "../../../assets/t31.jpeg",
+    name: "Life Partner",
+    widthSpan: "w-2",
+    heightSpan: "h-2",
+  },
+  {
+    src: "../../../assets/t32.jpeg",
+    name: "My Guy",
+    widthSpan: "",
+    heightSpan: "",
+  },
+  {
+    src: "../../../assets/t33.jpeg",
+    name: "Baby Boo",
+    widthSpan: "w-2",
+    heightSpan: "h-2",
+  },
+  {
+    src: "../../../assets/t34.jpeg",
+    name: "Rocky",
+    widthSpan: "",
+    heightSpan: "",
+  },
+  {
+    src: "../../../assets/t35.jpeg",
+    name: "Hero",
+    widthSpan: "w-2",
+    heightSpan: "h-2",
+  },
+  {
+    src: "../../../assets/t36.jpeg",
+    name: "Hon'",
+    widthSpan: "",
+    heightSpan: "",
+  },
+  {
+    src: "../../../assets/t37.jpeg",
+    name: "Gorgeous",
+    widthSpan: "",
+    heightSpan: "",
+  },
+  {
+    src: "../../../assets/t38.jpeg",
+    name: "Hot Shot",
+    widthSpan: "",
+    heightSpan: "",
+  },
+  {
+    src: "../../../assets/t39.jpeg",
+    name: "Knight in Shiny Aemor",
+    widthSpan: "",
+    heightSpan: "",
+  },
+  {
+    src: "../../../assets/t40.jpeg",
+    name: "Star",
+    widthSpan: "",
+    heightSpan: "",
+  },
+  {
+    src: "../../../assets/t41.jpeg",
+    name: "Most Complete",
+    widthSpan: "",
+    heightSpan: "",
+  },
+  {
+    src: "../../../assets/t42.jpeg",
+    name: "One and Only",
+    widthSpan: "",
+    heightSpan: "",
+  },
+  {
+    src: "../../../assets/t43.jpeg",
+    name: "Cherry Pie",
+    widthSpan: "w-2",
+    heightSpan: "h-2",
+  },
+  {
+    src: "../../../assets/t44.jpeg",
+    name: "Handsome",
+    widthSpan: "",
+    heightSpan: "",
+  },
+  {
+    src: "../../../assets/t45.jpeg",
+    name: "Handsome Boo",
+    widthSpan: "w-2",
+    heightSpan: "h-2",
+  },
+];

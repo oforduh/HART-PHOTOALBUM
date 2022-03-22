@@ -5,7 +5,6 @@ import styles from "./harrison.module.scss";
 import { harrisonPictures } from "./Pictures";
 
 const Harrison = () => {
-  // return <div>Lorem2000</div>;
   return (
     <div className={styles.harrisonParentDiv}>
       <div className={styles.harrisonContDiv}>

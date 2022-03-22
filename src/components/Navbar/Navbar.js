@@ -76,7 +76,6 @@ const Navbar = ({ setnavOpen, navOpen }) => {
                   <NavLink
                     to={item.path}
                     activeClassName={styles.navTextActive}
-                    // onClick={clickDBodyToCloseNavFunction}
                   >
                     {item.icon}
                     <span>{item.title}</span>

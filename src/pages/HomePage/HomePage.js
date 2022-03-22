@@ -5,9 +5,12 @@ const HomePage = () => {
   return (
     <div className={styles.homePageParentDiv}>
       <div className={styles.homePageContDiv}>
-        <h5>Home PAGE</h5>
-        djhfh
-        lorem20000
+        <div className={styles.image}>
+          <img src="../../../assets/date1.jpeg" alt="save the date" />
+        </div>
+        <div className={styles.image}>
+          <img src="../../../assets/date3.jpeg" alt="save the date" />.
+        </div>
       </div>
     </div>
   );

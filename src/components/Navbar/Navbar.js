@@ -7,7 +7,7 @@ import { NavLink } from "react-router-dom";
 import NavLogo from "./NavLogo.jpg";
 const Navbar = ({ setnavOpen, navOpen }) => {
   const [closeNav, setcloseNav] = useState(false);
-  const [showVerticalMenu, setshowVerticalMenu] = useState(false);
+  const [showVerticalMenu, setshowVerticalMenu] = useState(true);
 
   const handleNavbarIcons = () => {
     setcloseNav(!closeNav);
@@ -65,7 +65,7 @@ const Navbar = ({ setnavOpen, navOpen }) => {
       </div>
       <div
         className={
-          !showVerticalMenu
+          showVerticalMenu
             ? `${styles.verticalBar}`
             : `${styles.verticalBar} ${styles.active}`
         }

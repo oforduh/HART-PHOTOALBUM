@@ -219,4 +219,117 @@ export const tosinPictures = [
     widthSpan: "w-2",
     heightSpan: "h-2",
   },
+  {
+    src: "../../../assets/37.jpeg",
+    name: "Heaven sent",
+    widthSpan: "",
+    heightSpan: "",
+  },
+  {
+    src: "../../../assets/38.jpeg",
+    name: "Pearli",
+    widthSpan: "",
+    heightSpan: "",
+  },
+  {
+    src: "../../../assets/50.jpeg",
+    name: "Apple",
+    widthSpan: "w-2",
+    heightSpan: "h-2",
+  },
+  {
+    src: "../../../assets/39.jpeg",
+    name: "Pearlsi",
+    widthSpan: "",
+    heightSpan: "",
+  },
+
+  {
+    src: "../../../assets/41.jpeg",
+    name: "Cookie",
+    widthSpan: "",
+    heightSpan: "",
+  },
+  {
+    src: "../../../assets/42.jpeg",
+    name: "Everywhere Stew",
+    widthSpan: "",
+    heightSpan: "",
+  },
+
+  {
+    src: "../../../assets/44.jpeg",
+    name: "Sugar Bomb",
+    widthSpan: "w-2",
+    heightSpan: "h-3",
+  },
+  {
+    src: "../../../assets/45.jpeg",
+    name: "D light",
+    widthSpan: "",
+    heightSpan: "",
+  },
+  {
+    src: "../../../assets/46.jpeg",
+    name: "Butter Scotch",
+    widthSpan: "",
+    heightSpan: "",
+  },
+  {
+    src: "../../../assets/40.jpeg",
+    name: "Butter Finger",
+    widthSpan: "w-2",
+    heightSpan: "h-2",
+  },
+
+  {
+    src: "../../../assets/48.jpeg",
+    name: "Peach",
+    widthSpan: "",
+    heightSpan: "",
+  },
+  {
+    src: "../../../assets/49.jpeg",
+    name: "Cherry",
+    widthSpan: "",
+    heightSpan: "",
+  },
+
+
+  {
+    src: "../../../assets/52.jpeg",
+    name: "Baby gril",
+    widthSpan: "",
+    heightSpan: "",
+  },
+  {
+    src: "../../../assets/51.jpeg",
+    name: "Honeycrisp",
+    widthSpan: "",
+    heightSpan: "",
+  },
+  {
+    src: "../../../assets/53.jpeg",
+    name: "Babe",
+    widthSpan: "w-2",
+    heightSpan: "h-2",
+  },
+  {
+    src: "../../../assets/54.jpeg",
+    name: "Babykins",
+    widthSpan: "",
+    heightSpan: "",
+  },
+  {
+    src: "../../../assets/43.jpeg",
+    name: "Sugar Nova",
+    widthSpan: "",
+    heightSpan: "",
+  },
+  {
+    src: "../../../assets/47.jpeg",
+    name: "Berry Boo",
+    widthSpan: "",
+    heightSpan: "",
+  },
 ];

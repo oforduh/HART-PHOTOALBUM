@@ -25,9 +25,7 @@ const Navbar = ({ setnavOpen, navOpen }) => {
   const clickDBodyToCloseNavFunction = useCallback(
     function (e) {
       console.log(showVerticalMenu);
-    },
-    [showVerticalMenu]
-  );
+    },[showVerticalMenu]);
 
   // console.log(showVerticalMenu);
 
@@ -38,6 +36,10 @@ const Navbar = ({ setnavOpen, navOpen }) => {
     //   second
     // }
   }, []);
+
+  useEffect(() => {
+   const hello = clickDBodyToCloseNavFunction()
+  }, [])
 
   return (
     <div className={styles.navbarParentDiv}>

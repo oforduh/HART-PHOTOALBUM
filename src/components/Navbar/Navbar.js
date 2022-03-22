@@ -22,24 +22,15 @@ const Navbar = ({ setnavOpen, navOpen }) => {
     setnavOpen(!navOpen);
   };
 
-  const clickDBodyToCloseNavFunction = useCallback(
-    function (e) {
-      console.log(showVerticalMenu);
-    },[showVerticalMenu]);
-
-  // console.log(showVerticalMenu);
+  const clickDBodyToCloseNavFunction = () => {
+    handleNavbarIcons();
+    handleNavbarSlide();
+    navOpensetter();
+  };
 
   useEffect(() => {
-    document.body.addEventListener("click", clickDBodyToCloseNavFunction);
-
-    // return () => {
-    //   second
-    // }
+    const hello = clickDBodyToCloseNavFunction();
   }, []);
-
-  useEffect(() => {
-   const hello = clickDBodyToCloseNavFunction()
-  }, [])
 
   return (
     <div className={styles.navbarParentDiv}>
@@ -74,8 +65,7 @@ const Navbar = ({ setnavOpen, navOpen }) => {
       >
         <div
           className={styles.verticalBarContainer}
-          // onClick={clickDBodyToCloseNavFunction}
-          id="verticalBarContainerId"
+          onClick={clickDBodyToCloseNavFunction}
         >
           <img alt="Navbar Logo" src={NavLogo} height="150" />
 

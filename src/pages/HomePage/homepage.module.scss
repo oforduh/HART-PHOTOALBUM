@@ -2,13 +2,11 @@
   max-height: calc(100vh - 90px);
   max-width: 100%;
   background-color: var(--backgroundColor) !important;
-  border: 2px solid red;
   display: flex;
   justify-content: center;
 
   background-color: var(--white);
   .homePageContDiv {
-    border: 2px solid blue;
     max-height: 100%;
     max-width: 95%;
     display: flex;

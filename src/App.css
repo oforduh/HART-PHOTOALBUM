@@ -14,3 +14,19 @@ aside {
 }
 
 
+.carousel-root{
+    /* border: 2px solid blue; */
+    
+} 
+.carousel-slider {
+    height: calc(100vh - 90px) !important;
+    max-width: 100%;
+}
+
+.slider-wrapper{
+    height: 100%;
+}
+
+.slider {
+    height: 100%;
+}

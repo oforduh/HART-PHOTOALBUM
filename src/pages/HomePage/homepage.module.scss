@@ -1,31 +1,23 @@
 .homePageParentDiv {
-  height: calc(100vh - 90px);
-
+  max-height: calc(100vh - 90px);
   max-width: 100%;
-  position: relative;
+  background-color: var(--backgroundColor) !important;
+  border: 2px solid red;
+  display: flex;
+  justify-content: center;
 
   background-color: var(--white);
   .homePageContDiv {
+    border: 2px solid blue;
     max-height: 100%;
-    max-width: 100%;
+    max-width: 95%;
     display: flex;
-    div {
-      height: 100%;
-      max-width: 100%;
 
-      overflow: hidden;
-      &:nth-child(1) {
-        width: 40%;
-        height: 100%;
-        // object-fit: contain;
-        border: 2px solid red;
-      }
-      &:nth-child(2) {
-        width: 60%;
-        height: 100%;
-        object-fit: contain;
-        border: 2px solid red;
-      }
+    img {
+      background-size: contain;
+      object-fit: cover;
+      height: 650px;
+      width: 650px;
     }
   }
 }

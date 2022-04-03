@@ -40,7 +40,9 @@
 .container {
   width: 100%;
   position: relative;
+  height: 100%;
   .container2 {
+    height: 100%;
     width: 100%;
     display: grid;
     grid-template-columns: repeat(6, 1fr);

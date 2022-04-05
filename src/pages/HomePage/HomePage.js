@@ -3,8 +3,8 @@ import styles from "./homepage.module.scss";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Slider1 from "../../assets/d1.png";
-import Slider2 from "../../assets/d2.png";
-import Slider3 from "../../assets/d3.png";
+import Slider2 from "../../assets/c2.jpeg";
+import Slider3 from "../../assets/c10.jpeg";
 
 const HomePage = () => {
   return (

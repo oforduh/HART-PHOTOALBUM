@@ -29,7 +29,7 @@ const Navbar = ({ setnavOpen, navOpen }) => {
   };
 
   useEffect(() => {
-    const hello = clickDBodyToCloseNavFunction();
+    clickDBodyToCloseNavFunction();
   }, []);
 
   return (

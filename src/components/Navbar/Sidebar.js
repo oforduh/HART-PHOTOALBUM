@@ -9,7 +9,7 @@ export const sidebarData = [
     icon: <BsCalendar3 />,
   },
   {
-    title: "PhotoShoot",
+    title: "Photo Shoot",
     path: "/photoshoot",
     icon: <BsFillEmojiHeartEyesFill />,
   },
@@ -24,7 +24,7 @@ export const sidebarData = [
     icon: <FaUserSecret />,
   },
   {
-    title: "Couples",
+    title: "Couple",
     path: "/couple",
     icon: <RiUserHeartLine />,
   },

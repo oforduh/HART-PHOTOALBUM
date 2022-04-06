@@ -83,7 +83,11 @@ const Navbar = ({ setnavOpen, navOpen }) => {
                 </li>
               );
             })}
+             <div className={styles.buttonContainer}>
+            <button>Gift Registry</button>
+          </div>
           </ul>
+         
         </div>
       </div>
       ;

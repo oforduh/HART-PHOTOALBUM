@@ -3,15 +3,16 @@ import { Request } from "../../helpers/request";
 
 export const handleVerifyPayment = async function (
   reference,
-  setverifyPayment
+  setverifyPayment,
+  setisLoading
 ) {
   try {
     const id = toast.loading("Processing Payment...");
     const request = new Request("verify/payment");
     const verifyingPayment = await request.verifyingPayment(reference);
-    console.log(verifyingPayment);
+    setisLoading(false);
+    setverifyPayment(true);
     if (!verifyingPayment.status) {
-      setverifyPayment(true);
       return toast.update(id, {
         render:
           verifyingPayment.message || "An error occurred. Try again later",
@@ -21,7 +22,6 @@ export const handleVerifyPayment = async function (
       });
     }
     if (verifyingPayment.status) {
-      setverifyPayment(true);
       toast.update(id, {
         render: "Payment successful",
         type: "success",

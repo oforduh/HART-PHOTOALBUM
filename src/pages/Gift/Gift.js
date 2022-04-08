@@ -59,6 +59,7 @@ const Gift = () => {
                   <label>Email</label>
                   <input
                     type="email"
+                    required
                     className={styles.formControl}
                     placeholder="Enter email Address "
                     value={email}
@@ -92,7 +93,7 @@ const Gift = () => {
                   ></textarea>
                 </div>
                 <button style={{ opacity: makingPayment && 0.5 }}>
-                  {makingPayment ? "Processing" : "Pay"}
+                  {makingPayment ? "Processing" : "Make Donation"}
                 </button>
               </form>
             </div>

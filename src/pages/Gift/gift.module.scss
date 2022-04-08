@@ -35,10 +35,60 @@
         .preFormDiv2 {
           background-color: var(--backgroundColor);
           height: 90%;
-          width: 60%;
+          width: 70%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
           box-shadow: -1px 1px 7px 1px rgba(11, 52, 46, 0.75);
           -webkit-box-shadow: -1px 1px 7px 1px rgba(11, 52, 46, 0.75);
           -moz-box-shadow: -1px 1px 7px 1px rgba(11, 52, 46, 0.75);
+          form {
+            padding-top: 20px;
+            width: 90%;
+            min-height: 90%;
+            // border: 2px solid red;
+            .formGroup {
+              margin-bottom: 10px;
+              label {
+                display: block;
+              }
+              input {
+                width: 100%;
+                padding: 10px 10px;
+                outline: none;
+              }
+              textarea {
+                width: 100%;
+                outline: none;
+              }
+            }
+            button {
+              width: 100%;
+              color: var(--backgroundColor);
+              background-color: var(--secondary);
+              padding: 12px;
+              font-weight: bolder;
+              font-size: 16px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 850px) {
+  .giftParentDiv {
+    .giftContDiv {
+      .giftContDiv2 {
+        .preFormDiv {
+          justify-content: center;
+          align-items: center;
+          height: 90%;
+          width: 90%;
+          .preFormDiv2 {
+            height: 100%;
+            width: 100%;
+          }
         }
       }
     }

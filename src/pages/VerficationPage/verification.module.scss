@@ -1,0 +1,91 @@
+.verificationParentDiv {
+  min-height: calc(100vh - 90px);
+  max-width: 100vw;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // border: 2px solid red;
+  background-color: var(--backgroundColor);
+  .verificationContDiv {
+    // border: 2px solid blue;
+    min-height: 70%;
+    width: 70%;
+    padding: 15px;
+    .parentImageDiv {
+      display: grid;
+      place-items: center;
+      height: 60%;
+      width: 100%;
+
+      // border: 2px solid purple;
+      .ImageContainer {
+        height: 100%;
+        width: 40%;
+        // border: 2px solid red;
+        display: flex;
+        img {
+          object-fit: cover;
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+
+    .textContainer {
+      height: 20%;
+      width: 100%;
+      margin-top: 20px;
+      color: var(--secondary);
+      font-weight: bolder;
+      // border: 2px solid red;
+      text-align: center;
+      h2{
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 800px) {
+  .verificationParentDiv {
+    .verificationContDiv {
+      padding-top: 50px;
+      min-height: 100%;
+      width: 80%;
+      .parentImageDiv {
+        // border: 2px solid blue;
+        .ImageContainer {
+          height: 100%;
+          width: 100%;
+          img {
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .verificationParentDiv {
+    .verificationContDiv {
+      padding-top: 30px;
+      min-height: 100%;
+      width: 100%;
+      .parentImageDiv {
+        // border: 2px solid blue;
+        .ImageContainer {
+          height: 100%;
+          width: 100%;
+          img {
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+          }
+        }
+      }
+    }
+  }
+}

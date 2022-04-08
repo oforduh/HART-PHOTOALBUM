@@ -6,5 +6,7 @@ const routes = [
   { path: "/oluwatosin", element: <pages.Oluwatosin />, type: "public" },
   { path: "/couple", element: <pages.Couples />, type: "public" },
   { path: "/photoshoot", element: <pages.PrephotoShoot />, type: "public" },
+  { path: "/gift", element: <pages.Gift />, type: "public" },
+  { path: "/verification", element: <pages.Verification />, type: "public" },
 ];
 export default routes;

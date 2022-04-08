@@ -1,0 +1,65 @@
+.giftParentDiv {
+  min-height: calc(100vh - 90px);
+  max-width: 100vw;
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  //   border: 2px solid red;
+
+  background-color: var(--backgroundColor);
+  .giftContDiv {
+    min-height: 100%;
+    width: 100%;
+    // border: 2px solid blue;
+    background-color: var(--footerColor);
+    padding: 15px;
+    .giftContDiv2 {
+      background-color: var(--backgroundColor);
+      height: 100%;
+      width: 100%;
+      border-radius: 5px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .preFormDiv {
+        background-color: var(--backgroundColor);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 95%;
+        width: 80%;
+        box-shadow: -1px 1px 7px 1px rgba(11, 52, 46, 0.75);
+        -webkit-box-shadow: -1px 1px 7px 1px rgba(11, 52, 46, 0.75);
+        -moz-box-shadow: -1px 1px 7px 1px rgba(11, 52, 46, 0.75);
+        .preFormDiv2 {
+          background-color: var(--backgroundColor);
+          height: 90%;
+          width: 60%;
+          box-shadow: -1px 1px 7px 1px rgba(11, 52, 46, 0.75);
+          -webkit-box-shadow: -1px 1px 7px 1px rgba(11, 52, 46, 0.75);
+          -moz-box-shadow: -1px 1px 7px 1px rgba(11, 52, 46, 0.75);
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .giftParentDiv {
+    .giftContDiv {
+      .giftContDiv2 {
+        .preFormDiv {
+          justify-content: center;
+          align-items: center;
+          height: 90%;
+          width: 90%;
+          .preFormDiv2 {
+            height: 100%;
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}

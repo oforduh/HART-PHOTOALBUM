@@ -3,7 +3,7 @@ import styles from "./navbar.module.scss";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { AiOutlineClose } from "react-icons/ai";
 import { sidebarData } from "./Sidebar";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import NavLogo from "./NavLogo.jpg";
 const Navbar = ({ setnavOpen, navOpen }) => {
   const [closeNav, setcloseNav] = useState(false);
@@ -83,11 +83,13 @@ const Navbar = ({ setnavOpen, navOpen }) => {
                 </li>
               );
             })}
-             <div className={styles.buttonContainer}>
-            <button>Gift Registry</button>
-          </div>
+            <div className={styles.buttonContainer}>
+              <button>
+                {" "}
+                <Link to="/gift">Gift Registry</Link>
+              </button>
+            </div>
           </ul>
-         
         </div>
       </div>
       ;

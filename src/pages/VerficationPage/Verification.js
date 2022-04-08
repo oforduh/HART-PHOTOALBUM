@@ -20,7 +20,7 @@ const Verification = () => {
 
   return (
     <div className={styles.verificationParentDiv}>
-      {!verifyPayment ? (
+      {verifyPayment ? (
         <div className={styles.verificationContDiv}>
           <div className={styles.parentImageDiv}>
             <div className={styles.ImageContainer}>

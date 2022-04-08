@@ -8,7 +8,7 @@ const Gift = () => {
   const [email, setEmail] = useState("");
   const [amount, setAmount] = useState("");
   const [textArea, setTextArea] = useState("");
-  const [makingPayment, setMakingPayment] = useState(false);
+  const [makingPayment, setMakingPayment] = useState(null);
 
   return (
     <div className={styles.giftParentDiv}>

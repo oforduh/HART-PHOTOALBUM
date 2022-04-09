@@ -4,7 +4,7 @@ import { BsCalendar3, BsFillEmojiHeartEyesFill } from "react-icons/bs";
 
 export const sidebarData = [
   {
-    title: "Save the Date",
+    title: "Wedding Invite",
     path: "/date",
     icon: <BsCalendar3 />,
   },

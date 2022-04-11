@@ -7,7 +7,7 @@ const Gift = () => {
   const [lName, setLName] = useState("");
   const [email, setEmail] = useState("");
   const [amount, setAmount] = useState("");
-  const [textArea, setTextArea] = useState("");
+  const [message, setmessage] = useState("");
   const [makingPayment, setMakingPayment] = useState(null);
 
   return (
@@ -25,7 +25,7 @@ const Gift = () => {
                       lName,
                       email,
                       amount,
-                      textArea,
+                      message,
                     },
                     setMakingPayment,
                   });
@@ -84,9 +84,9 @@ const Gift = () => {
                 <div className={styles.formGroup}>
                   <label>Good will message</label>
                   <textarea
-                    value={textArea}
+                    value={message}
                     onChange={(event) => {
-                      setTextArea(event.target.value);
+                      setmessage(event.target.value);
                     }}
                     rows="4"
                     cols="50"

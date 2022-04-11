@@ -11,7 +11,7 @@ export const handleVerifyPayment = async function (
     const request = new Request("verify/payment");
     const verifyingPayment = await request.verifyingPayment(reference);
     setisLoading(false);
-    setverifyPayment(true);
+
     if (!verifyingPayment.status) {
       return toast.update(id, {
         render:
@@ -22,6 +22,7 @@ export const handleVerifyPayment = async function (
       });
     }
     if (verifyingPayment.status) {
+      setverifyPayment(true);
       toast.update(id, {
         render: "Payment successful",
         type: "success",

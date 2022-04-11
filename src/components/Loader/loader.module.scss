@@ -1,9 +1,8 @@
 .loaderParent {
   height: calc(100vh - 90px);
-  width: 100vw;
+  width: 100%;
   position: absolute;
   z-index: 3;
-  border: 2px solid blue;
 
   .loader {
     border: 5px solid #f3f3f3;

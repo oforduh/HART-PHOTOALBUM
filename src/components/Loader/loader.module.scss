@@ -37,3 +37,12 @@
     }
   }
 }
+
+@media screen and (max-width: 512px) {
+  .loaderParent {
+    // border: 10px solid red;
+    .loader {
+      left: 47%;
+    }
+  }
+}

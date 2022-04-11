@@ -13,15 +13,12 @@
     justify-content: center;
     align-items: center;
 
-    // border: 2px solid red;
-    // background-color: var(--backgroundColor);
-
     .verificationContDiv {
       // border: 2px solid blue;
       min-height: 70%;
       width: 70%;
       padding: 15px;
-      
+
       .parentImageDiv {
         display: grid;
         place-items: center;

@@ -74,7 +74,7 @@ const Gift = () => {
                     type="text"
                     required
                     className={styles.formControl}
-                    placeholder="Enter email Address "
+                    placeholder="Enter Amount to send"
                     value={amount}
                     onChange={(event) => {
                       setAmount(event.target.value);
